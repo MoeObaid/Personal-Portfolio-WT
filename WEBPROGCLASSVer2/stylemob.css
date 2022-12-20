@@ -1,0 +1,67 @@
+/*----------------- CSS3 FOR MOBILE -------------------*/
+
+@media screen and (max-width: 480px){
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+}
+/*-------------- MAIN HEADER mobile ----------------*/
+
+
+.mainheader img {
+	width: 100%;
+}
+
+.ul-fixfix {
+	padding: 10px 10px 10px 10px;
+	
+}
+
+.mainheader nav {
+	height: 160px;
+	align-content: center;
+	align-items: center;
+}
+
+
+.mainheader nav ul li {
+	display: inline;
+	align-content: center;
+	align-items: center;
+}
+
+.mainheader a:link, .mainheader a:visited{
+	display: block;
+	align-content: center;
+	align-items: center;
+}
+
+
+.mainheader a:hover, .mainheader a:active{
+	color: #a0359a;
+	background-color: #dfb71f;
+	text-shadow: 1px 1px #000;
+	align-content: center;
+	align-items: center;
+}
+
+.mainContent {
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 680px){
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.mainheader nav {
+		font-size: 80%;
+	}
+
+
+}

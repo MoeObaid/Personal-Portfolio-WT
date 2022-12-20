@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Personal Blog</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="stylemob.css" media="screen and (max-width:480px)">
+		<link rel="icon" href="faviconG/favicon.ico">
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+
+	<!--[if IE]-->
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<!--[endif]-->
+
+
+	<!--HEADER NAV-->
+	<body class="body">
+
+		<header class="mainheader">
+			<nav><ul id="il-fixfix" style="padding: 10px 10px 10px 10px;">
+				<li> <a href="#home">HOME</a></li>
+				<li> <a href="#portfolio">PORTFOLIO</a></li>
+				<li> <a href="#about">ABOUT</a></li>
+				<li> <a href="#contact">CONTACT</a></li>
+			</ul></nav>
+		</header>
+
+		<!--PAGE START-->
+
+		<div class="mainContent">
+			<section class="top-content">
+				<header>
+					<h2><a href="#portfolio">Personal Portfolio!</a></h2>
+				</header>
+				<footer>
+					<p class="post-info">written by: Mohammed </p>
+				</footer>
+				<article>
+					<figure>
+						<img src="image/mememe.jpg" class="post-img">
+						<figcaption>
+							Me in kuala lumpur Malaysia.
+						</figcaption>
+					</figure>
+
+					<p class="post-content">
+						Hello! my name is Mohammed Obaid, im from yemen and im 22 years old. 
+         		    <br> Im a 4th year Information Technology Student, Studying at Fatoni University.
+        		    <br> I like HTML Programming its fun and Interesting! &#128513;
+            		<br>
+						<details>
+							<summary> more about <mark> Mohammed Obaid</mark></summary>
+						<br><br>
+                        My name is Mohammed obaid and i'm 22 years old, I'm a yemeni born in saudi arabia.<br>
+						Currently Studying in Pattani Thailand. <br>
+						Majoring in Information Technology. <br><br>
+						i can speak these languages:-						
+						<br><br>
+
+						<div id="lang-met">
+							<span>Arabic</span>
+							<br>
+							<meter value="100" min="0" max="100"></meter>
+							<br><br>
+							<span>English</span>
+							<br>
+							<meter value="80" min="0" max="100"></meter>
+							<br><br>
+							<span>Chinese</span>
+							<br>
+							<meter value="20" min="0" max="100"></meter>
+							<br><br>
+							<span>Thai</span>
+							<br>
+							<meter value="15" min="0" max="100"></meter>
+							<br><br>
+							<span>Japanese</span>
+							<br>
+							<meter value="10" min="0" max="100"></meter>
+							<br><br>
+						</div>
+						</details>
+					</p>
+					
+				</article>
+			</section>
+
+			<!--GRID START-->
+
+			<section class="top-content">				
+				<header>
+					<h2 id="contact"><a>Pictures</a></h2>
+				</header>
+
+				<footer>
+					<p class="post-info">written by: Mohammed </p>
+				</footer>
+
+				<ul style="padding: 10px 10px 10px 10px;">
+
+					<div class="image-grid">
+						<img class="image-grid-col-2 image-grid-row-2" src="image/me4V.jpg">
+						<img src="image/mememe.jpg" >
+						<img src="image/me5.jpg" >
+						<img src="image/me6.png" >
+						<img src="image/me7.png" >
+					</div>
+					
+			</section>
+
+			<!--GRID END-->
+
+			<!--CONTACT START-->
+
+			<section class="top-content">				
+				<header>
+					<h2 id="contact"><a>Contact me</a></h2>
+				</header>
+
+				<footer>
+					<p class="post-info">written by: Mohammed </p>
+				</footer>
+
+				<ul style="padding: 10px 10px 10px 10px;">
+					<article>
+						<p>
+				
+							<i class="fa fa-address-book"></i> Feel free to contact me using
+				
+							<br>
+							<br> <i class="fa fa-user"></i> Mohammed Obaid
+							<br> <i class="fa fa-phone"></i> Phone number: +66 98 080 5841
+							<br> <i class="fa fa-home"></i> Address : Sarong, Pattani, Thailand,
+							<br> <i class="fa fa-envelope"></i> E-Mail : Mohamed.saadi11128@gmail.com
+							<br><br><br>
+						</p>
+				 </article>
+			</section>
+
+			<!--CONTACT END-->
+
+			<section class="top-content"><header>
+					<h2><a href="#">You can contact me using this Form below</a></h2>
+				</header>
+				<form action="result.html" method="get">
+
+
+            
+					<!-- Using DIV to seperate our elements-->
+					<!--text only no numbers add an attribute-->
+					<div>
+						<label for="name">Name:</label> <br>
+						<input type="text" name="name" id="name" placeholder="First name Last name" style="width: 200px;" pattern="[a-zA-Z]{1,}" title="Please only enter english letters." required>
+					</div>  
+				<br>
+					<div>
+						<label for="phone">Phone number:</label> <br>
+						<input type="text" name="phone" id="phone" placeholder="Please enter a 10 digit number." pattern="[0]{1}[0-9]{9}" maxlength="10" title="Please only enter 10 numbers." style="width: 200px;" required>
+					</div>
+				<br>
+					<div>
+						<label for="email">E-Mail:</label> <br>
+						<input type="email" name="email" id="email" placeholder="email@mail.com" pattern="[a-z0-9._%+-]+@(gmail||yahoo||icloud)[a-z0-9.-]+\.[a-z]{2,}$" title="Only use Gmail/yahoo/icloud emails" style="width: 200px;" required>
+					</div>                                              
+				<br>
+					<div>
+						<label for="subject">Subject:</label> <br>
+						<input type="text" name="subject" id="subject" placeholder="Math, etc..." style="width: 200px;" required>
+					</div>
+		
+		
+				<br>
+		
+		
+					<div>
+						Hobbies:
+						<div id="hob-box">
+							<input type="checkbox" name="archery" id="archery">
+							<label for="archery">Archery</label>
+						</div>
+						<div>
+							<input type="checkbox" name="football" id="football">
+							<label for="football">Football</label>
+						</div>
+						<div>
+							<input type="checkbox" name="basketball" id="basketball">
+							<label for="basketball">Basketball</label>
+						</div>
+						<div>
+							<input type="checkbox" name="badminton" id="badminton">
+							<label for="badminton">Badminton</label>
+						</div>
+		
+					</div>
+		
+		
+				<br>
+		
+		
+					<div>
+						Gender:
+						<div>
+							<input type="radio" name="gender" id="male" value="male">
+							<label for="male">Male</label>
+						</div>
+		
+						<div>
+							<input type="radio" name="gender" id="female" value="female">
+							<label for="female">Female</label>
+						</div>
+					</div>
+		
+		
+				<br>
+		
+		
+					<div>
+						<label for="department">Department:</label>
+						<select name="department" id="department">
+							<option value="i.t">Information technology</option>
+							<option value="r.d">Data science</option>
+							<option value="d.s">Research and development</option>
+						</select>
+					</div>
+		
+		
+				<br>
+		
+					<div>
+						<label for="myfile">Select a file:</label>
+						<input type="file" id="image" name="image" accept="image/png, image/gif, image/jpeg .pdf" multiple><br><br>
+					</div>
+		
+				<br>
+		
+		
+					<div>
+						<label for="Message">Message:</label> <br>
+						<textarea id="message" name="message" style="width: 300px; height: 150px;" placeholder="Write your message here.."></textarea>
+					</div>
+				<br>
+					<div>
+						<button type="reset">Reset</button>
+						<button type="submit">Submit</button>
+					</div>
+		
+				  </form>
+		
+			
+		
+			 </ul>
+			</div>
+			</section>
+
+		</div>
+		
+
+		<!--END-->
+
+		<!--FOOTER-->
+
+		<footer class="footer">
+			<p><center>Copy Right Mohammed Obaid +66 98 080 5841 Thailand. 2022 All rights reserved. <i class="fa fa-copyright"></i></center></p>
+		</footer>
+	</body>
+</html>
